@@ -1,10 +1,7 @@
 // Create a function to print any numbers Fibonacci
 
 var n;
-var fi = [];
-
-fi[0] = 0;
-fi[1] = 1;
+var fi = [0, 1];
 for (n = 2; n <= 20; n++) {
   fi[n] = fi[n - 1] + fi[n - 2];
   console.log(fi[n]);
