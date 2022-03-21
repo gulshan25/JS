@@ -29,3 +29,15 @@ if (number % 1 != 0) {
 } else {
   console.log("The number is odd.");
 }
+
+// Showing both even and odd numbers
+
+const i = prompt("Enter a number: ");
+
+if (i % 2 == 0) {
+  console.log("The number is even.");
+} else if (i % 1 == 0) {
+  console.log("The number is odd.");
+} else {
+  console.log("none");
+}
